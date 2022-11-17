@@ -1,6 +1,5 @@
 from src.constants import MNIST_LABELS
 
-from typing import *
 from keras.layers import Conv2D, MaxPooling2D, Dropout, Flatten, Dense, Reshape, LSTM, BatchNormalization
 from keras.models import Sequential
 

@@ -23,7 +23,7 @@ def main():
             print(network.predict_from_image(mnist_img_to_str, 'assets/' + args[2]))
     except KeyboardInterrupt:
         print("\nProcess stopped!")
-    except:
+    except IndexError:
         print("\nIncorrect args! Use 'train <model_name>' for train model or 'predict <model_name> <image_name>' for model's prediction!")
 
 
